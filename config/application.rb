@@ -32,5 +32,6 @@ module WwgiftsApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.eager_load_paths << Rails.root.join('lib')
+    config.read_encrypted_secrets = true
   end
 end
