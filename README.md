@@ -1,24 +1,18 @@
-# README
+# WW Gifts API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Make sure you have Ruby 2.5+ and Rails 5+ installed
 
-Things you may want to cover:
+Install all dependencies
+`bundle install`
 
-* Ruby version
+Create database tables
+`rails db:migrate`
 
-* System dependencies
+Populate the database
+`rails db:seed`
 
-* Configuration
+Run the server
+`rails s -b 0.0.0.0`
 
-* Database creation
+The API was configured to work with *SQLite3* in development enviroment and *PostgreSQL* in production. Make sure you have the right database.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
